@@ -11,6 +11,7 @@
   <name>com.asaf.selenium.framework</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+  
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,7 +27,7 @@
       <scope>test</scope>
     </dependency>
     
-    <dependency>
+   <dependency>
      <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>3.9.1</version>

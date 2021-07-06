@@ -15,19 +15,20 @@ public class TestNGBase {
   public static WebDriver chromeDriver;
   
   @Test
-  public void f() {
+ public void f() {
   }
-  @BeforeClass
-  public void beforeClass() {
-  }
+  //@BeforeClass
+ // public void beforeClass() {
+  //}
 
-  @AfterClass
-  public void afterClass() {
-  }
+  //@AfterClass
+  //public void afterClass() {
+  //}
 
-  @BeforeTest
-  public void beforeTest() {
-  }
+  //@BeforeTest
+  //public void beforeTest() {
+	//  System.out.println("End Suite");
+ // }
 
   @BeforeSuite
   public void beforeSuite() {
@@ -42,7 +43,8 @@ public class TestNGBase {
 
   @AfterSuite
   public void afterSuite() {
-	  chromeDriver.quit();
+	 // chromeDriver.quit();
+	  System.out.println("End Suite");
   }
 
 }
